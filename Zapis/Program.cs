@@ -21,6 +21,13 @@ namespace ZapisDoPliku
             }
             file.Close();
             Console.ReadKey();
+            var wynikDodawania = DodajLiczby(5, 6);
+        }
+
+
+        public static int DodajLiczby(int a, int b)
+        {
+            return a + b;
         }
     }
 }
